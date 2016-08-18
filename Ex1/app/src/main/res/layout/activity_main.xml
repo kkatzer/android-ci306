@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="kk11.ex1.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_string_value"
+        android:textColor="@color/hello_text_color"
+        android:textSize="@dimen/hello_dimen_value"
+        android:id="@+id/textView"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="top"
+        android:layout_weight="0.01" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/Druid_crest"
+        android:minHeight="250dp"
+        android:minWidth="250dp"
+        android:contentDescription="@string/druid_crest"
+        android:layout_weight="1" />
+</LinearLayout>
